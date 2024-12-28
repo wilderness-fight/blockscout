@@ -41,7 +41,7 @@ services:
     links:
       - db:database
     environment:
-        ETHEREUM_JSONRPC_HTTP_URL: http://47.236.234.211:32805
+        ETHEREUM_JSONRPC_HTTP_URL: http://47.236.234.211:32769
         CHAIN_ID: '8976189761'
 
   frontend:
